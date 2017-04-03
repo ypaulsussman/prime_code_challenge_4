@@ -22,13 +22,19 @@ Meaning, in your own words, explain the problem and why your solution fixes the 
 
 ### Base Mode
 [ ] - Mongo does not seem to be connecting correctly.
+
 [ ] - The models have a conflict.
+
 [ ] - Index.html is not being properly served.
+
 [ ] - Posting information does not seem to come up correctly on the req.body as intended.
+
 [ ] - The information from the database is not being appended to the DOM.
+
 
 ### Hard Mode
 [ ] - All the information being appended on the DOM is not lining up together in their respective row. 
+
 
 ### Pro Mode
 [ ] - Not that you need to, but if you were to post this on Heroku, it would not work correctly.
