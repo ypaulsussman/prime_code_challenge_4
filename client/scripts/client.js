@@ -79,7 +79,7 @@ function getListings(){
     type: "GET",
     url: "/listings",
     success: function(response){
-      console.log(response);
+      appendListings(response);
     }
   });
 }
