@@ -39,7 +39,7 @@ router.post("/house", function(req,res){
     cost : listing.cost
   });
 
-  newHouse.save(newHouse, function(err, savedHouse){
+  newHouse.save(function(err, savedHouse){
     if(err){
       console.log("Error: ", err);
       res.sendStatus(500);
@@ -57,7 +57,7 @@ router.post("/apartment", function(req,res){
     rent : listing.rent
   });
 
-  newApartment.save(newApartment, function(err, savedApartment){
+  newApartment.save(function(err, savedApartment){
     if(err){
       console.log("Error: ", err);
       res.sendStatus(500);
