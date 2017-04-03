@@ -39,11 +39,12 @@ Meaning, in your own words, explain the problem and why your solution fixes the 
 
 [X] - The information from the database is not being appended to the DOM.
     --> In "client.js", the "getListings" function made an ajax GET call that, on success, only logged its returned values to the console (rather than calling the "appendListings" function.)
-    --> This has been resolved by replacing the "console.log(response);" on line 82 with "appendListings(response)". 
+    --> This has been resolved by replacing the "console.log(response);" on line 82 with "appendListings(response)".
 
 ### Hard Mode
-[ ] - All the information being appended on the DOM is not lining up together in their respective row.
-
+[X] - All the information being appended on the DOM is not lining up together in their respective row.
+    --> N/A; already solved (for good measure, however, the div's encapsulating the input fields on lines 24-31 of "index.html" have been reset to their original class="col-md-4", as their previous "col-md-6" results in overflow into a new row.)
 
 ### Pro Mode
-[ ] - Not that you need to, but if you were to post this on Heroku, it would not work correctly.
+[] - Not that you need to, but if you were to post this on Heroku, it would not work correctly.
+    -->
